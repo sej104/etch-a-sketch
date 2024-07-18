@@ -19,3 +19,7 @@ body {
     border: 1px solid black;
     flex: 1 0 41.75px;
 }
+
+.fill-in {
+    background-color: aqua;
+}

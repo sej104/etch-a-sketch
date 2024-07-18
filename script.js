@@ -6,3 +6,9 @@ for (let i = 0; i < (16*16); i++) {
     
     container.appendChild(box);
 }
+
+container.addEventListener("mouseover", (event) => {
+    let target = event.target;
+    target.classList.add("fill-in");
+});
+
