@@ -10,14 +10,15 @@ body {
 #container {
     height: 700px;
     width: 700px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 24px;
 }
 
 .box {
     border: 1px solid black;
-    flex: 1 0 41.75px;
+    flex: 1;
 }
 
 .fill-in {
