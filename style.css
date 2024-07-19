@@ -10,7 +10,6 @@ body {
 #container {
     height: 700px;
     width: 700px;
-    /* border: 1px solid black; */
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 24px;
@@ -22,5 +21,5 @@ body {
 }
 
 .fill-in {
-    background-color: aqua;
+    background-color: red;
 }

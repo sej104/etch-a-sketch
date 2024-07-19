@@ -20,7 +20,7 @@ function addBoxes(boxesPerSide) {
 }
 
 function resetGrid() {
-    let boxesPerSide = prompt("Enter a number from 1-100 of boxes per side", "16");
+    let boxesPerSide = prompt("Enter a number of boxes per side from 1-100", "16");
 
     if (boxesPerSide === null || boxesPerSide === "") {
         return;
